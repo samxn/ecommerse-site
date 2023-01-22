@@ -339,7 +339,7 @@ button.white {
   bottom: 20px;
   right: 10px;
 }
-/* 1/2 mini banner */
+/* mini banners */
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -379,4 +379,40 @@ button.white {
 #sm-banner .banner-box:hover button {
   background: #088178;
   border: 1px solid #088178;
+}
+/* Second row of mini banners */
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("media/b7.jpeg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#banner3 .banner-box2 {
+  background-image: url("media/b4.jpeg");
+}
+#banner3 .banner-box3 {
+  background-image: url("media/b18.jpeg");
+}
+#banner3 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 22px;
+}
+#banner3 h3 {
+  color: rgb(241, 72, 72);
+  font-weight: 800;
+  font-size: 15px;
 }
