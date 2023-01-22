@@ -416,3 +416,49 @@ button.white {
   font-weight: 800;
   font-size: 15px;
 }
+/* Newsletter banner*/
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("media/b1.jpeg");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #0b111e;
+}
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.801);
+}
+#newsletter p span {
+  color: rgb(247, 184, 12);
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  background-color: #088178;
+  color: white;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
