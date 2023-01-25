@@ -28,7 +28,7 @@ h6 {
 }
 p {
   font-size: 16px;
-  color: #465b52;
+  color: rgb(192, 189, 189);
   margin: 15px 0 20px 0;
 }
 button.normal {
@@ -65,8 +65,8 @@ button.white {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
-  background: #e3e6f3;
+  padding: 10px 80px;
+  background: #595857;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
@@ -87,19 +87,19 @@ button.white {
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #ffffff;
   transition: 0.3s ease;
 }
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #dd5349;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after {
   content: "";
   width: 30%;
   height: 2px;
-  background: #088178;
+  background: #dd5349;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -113,7 +113,8 @@ button.white {
 }
 /* Homepage */
 #hero {
-  background-image: url("media/hero4.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("media/hero4.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -125,21 +126,30 @@ button.white {
   justify-content: center;
 }
 #hero h4 {
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  color: white;
+}
+#hero h2 {
+  color: white;
 }
 #hero h1 {
-  color: #088178;
+  color: #dd5349;
 }
 #hero button {
   background-image: url("media/button.png");
   background-color: transparent;
-  color: #088178;
+  background-position: center;
+  color: white;
   border: 0;
-  padding: 14px 80px 14px 65px;
+  padding: 20px 80px 20px 80px;
   background-repeat: no-repeat;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
+  transition: 0.2s;
+}
+#hero button:hover {
+  color: #dd5349;
 }
 #feature {
   display: flex;
@@ -152,7 +162,7 @@ button.white {
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-  border: 1px solid #cce7d0;
+  border: 1px solid #ee9e98ab;
   border-radius: 4px;
   margin: 15px 0;
 }
@@ -168,24 +178,10 @@ button.white {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
-  background-color: #fddde4;
+  color: black;
+  background-color: #dd53498f;
 }
-#feature .fe-box:nth-child(2) h6 {
-  background-color: #cdebbc;
-}
-#feature .fe-box:nth-child(3) h6 {
-  background-color: #d1e8f2;
-}
-#feature .fe-box:nth-child(4) h6 {
-  background-color: #f6dbf6;
-}
-#feature .fe-box:nth-child(5) h6 {
-  background-color: #cdd4f8;
-}
-#feature .fe-box:nth-child(6) h6 {
-  background-color: #fff2e5;
-}
+
 /* Product page */
 #product1 {
   text-align: center;
@@ -200,7 +196,7 @@ button.white {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #cce7d0;
+  border: 1px solid #6928238a;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -293,7 +289,7 @@ button.white {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #cce7d0;
+  border: 1px solid #6928238a;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -329,7 +325,7 @@ button.white {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #088178;
+  color: #dd5349;
 }
 #product2 .pro .cart {
   width: 40px;
@@ -354,7 +350,8 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("media/b17.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/b17.jpeg");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -362,7 +359,8 @@ button.white {
   padding: 30px;
 }
 #sm-banner .banner-box2 {
-  background-image: url("media/b10.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/b10.jpeg");
 }
 #sm-banner h4 {
   color: white;
@@ -381,8 +379,8 @@ button.white {
   padding-bottom: 15px;
 }
 #sm-banner .banner-box:hover button {
-  background: #088178;
-  border: 1px solid #088178;
+  background: #dd5349;
+  border: 1px solid #dd5349;
 }
 /* Second row of mini banners */
 #banner3 {
@@ -396,7 +394,8 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("media/b7.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/b7.jpeg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -405,10 +404,12 @@ button.white {
   margin-bottom: 20px;
 }
 #banner3 .banner-box2 {
-  background-image: url("media/b4.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/b18.jpeg");
 }
 #banner3 .banner-box3 {
-  background-image: url("media/b18.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/b4.jpeg");
 }
 #banner3 h2 {
   color: white;
@@ -429,7 +430,8 @@ button.white {
   background-image: url("media/b1.jpeg");
   background-repeat: no-repeat;
   background-position: 20% 30%;
-  background-color: #0b111e;
+  background-color: #c2c3c8;
+  background-size: cover;
 }
 #newsletter h4 {
   font-size: 22px;
@@ -442,7 +444,7 @@ button.white {
   color: rgba(255, 255, 255, 0.801);
 }
 #newsletter p span {
-  color: rgb(247, 184, 12);
+  color: rgb(62, 94, 22);
 }
 #newsletter .form {
   display: flex;
@@ -460,7 +462,7 @@ button.white {
   border-bottom-right-radius: 0;
 }
 #newsletter button {
-  background-color: #088178;
+  background-color: #dd5349;
   color: white;
   white-space: nowrap;
   border-top-left-radius: 0;
@@ -499,12 +501,12 @@ footer .follow {
   margin-top: 20px;
 }
 footer .follow i {
-  color: #465b52;
+  color: #441d1a;
   padding-right: 4px;
   cursor: pointer;
 }
 footer .install .row img {
-  border: 1px solid #088178;
+  border: 1px solid #351816;
   border-radius: 6px;
 }
 footer .install img {
@@ -512,7 +514,7 @@ footer .install img {
 }
 footer .follow i:hover,
 footer a:hover {
-  color: #088178;
+  color: #dd5349;
 }
 footer .copyright {
   width: 100%;
