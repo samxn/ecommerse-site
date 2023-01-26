@@ -136,13 +136,10 @@ button.white {
   color: #dd5349;
 }
 #hero button {
-  background-image: url("media/button.png");
-  background-color: transparent;
-  background-position: center;
   color: white;
-  border: 0;
-  padding: 20px 80px 20px 80px;
-  background-repeat: no-repeat;
+  border: 1px solid #dd5349;
+  padding: 15px 20px 15px 20px;
+  background-color: transparent;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
@@ -150,6 +147,8 @@ button.white {
 }
 #hero button:hover {
   color: #dd5349;
+  background-color: white;
+  border: 1px solid white;
 }
 #feature {
   display: flex;
@@ -196,7 +195,7 @@ button.white {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #6928238a;
+  border: 1px solid lightgray;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -232,7 +231,7 @@ button.white {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #088178;
+  color: #d39490;
 }
 #product1 .pro .cart {
   width: 40px;
@@ -240,8 +239,8 @@ button.white {
   line-height: 40px;
   border-radius: 50px;
   background-color: #e8f6ea;
-  color: #088178;
-  border: 1px solid #cce7d0;
+  color: #f7bd55;
+  border: 1px solid #f7bd55;
   position: absolute;
   bottom: 20px;
   right: 10px;
@@ -269,10 +268,10 @@ button.white {
   padding: 10px 0;
 }
 #banner h2 span {
-  color: rgb(226, 50, 50);
+  color: #dd5349;
 }
 #banner button:hover {
-  background: #088178;
+  background: #dd5349;
   color: white;
 }
 /* Second product page */
@@ -289,7 +288,7 @@ button.white {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
-  border: 1px solid #6928238a;
+  border: 1px solid lightgray;
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
@@ -325,7 +324,7 @@ button.white {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #dd5349;
+  color: #d39490;
 }
 #product2 .pro .cart {
   width: 40px;
@@ -333,8 +332,8 @@ button.white {
   line-height: 40px;
   border-radius: 50px;
   background-color: #e8f6ea;
-  color: #088178;
-  border: 1px solid #cce7d0;
+  color: #f7bd55;
+  border: 1px solid #f7bd55;
   position: absolute;
   bottom: 20px;
   right: 10px;
@@ -444,7 +443,7 @@ button.white {
   color: rgba(255, 255, 255, 0.801);
 }
 #newsletter p span {
-  color: rgb(62, 94, 22);
+  color: #dd5349;
 }
 #newsletter .form {
   display: flex;
@@ -467,6 +466,9 @@ button.white {
   white-space: nowrap;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+#newsletter button:hover {
+  background-color: #be4941;
 }
 /* Footer */
 footer {
@@ -512,6 +514,9 @@ footer .install .row img {
 footer .install img {
   margin: 10px 0 15px 0;
 }
+footer .install img:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 footer .follow i:hover,
 footer a:hover {
   color: #dd5349;
@@ -519,6 +524,12 @@ footer a:hover {
 footer .copyright {
   width: 100%;
   text-align: center;
+}
+footer .copyright a {
+  color: rgb(167, 164, 164);
+}
+footer .copyright a:hover {
+  color: rgb(126, 125, 125);
 }
 /* Responsive */
 @media (max-width: 799px) {
