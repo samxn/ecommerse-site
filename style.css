@@ -245,6 +245,15 @@ button.white {
   bottom: 20px;
   right: 10px;
 }
+#product1 .star a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(163, 163, 255);
+  transition: 0.2s;
+}
+#product1 .star a:hover {
+  color: rgb(85, 85, 240);
+}
 /* Banner */
 #banner {
   display: flex;
@@ -337,6 +346,15 @@ button.white {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+#product2 .star a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(163, 163, 255);
+  transition: 0.2s;
+}
+#product2 .star a:hover {
+  color: rgb(85, 85, 240);
 }
 /* mini banners */
 #sm-banner {
@@ -548,6 +566,21 @@ footer .copyright a:hover {
 #page-header h2,
 #page-header p {
   color: white;
+}
+/* Next button */
+#pagination {
+  text-align: center;
+}
+#pagination a {
+  text-decoration: none;
+  background-color: #dd5349;
+  padding: 10px 15px;
+  border-radius: 4px;
+  color: white;
+}
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
 }
 /* Responsive */
 @media (max-width: 799px) {
