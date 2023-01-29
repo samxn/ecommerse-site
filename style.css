@@ -718,6 +718,14 @@ footer .copyright a:hover {
 #about-app {
   text-align: center;
 }
+#about-app a {
+  color: #d39490;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#about-app a:hover {
+  color: #dd5349;
+}
 #about-app .video {
   width: 70%;
   height: 100%;
