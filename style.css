@@ -855,5 +855,9 @@ footer .copyright a:hover {
   #blog .blog-img {
     width: 100%;
     margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  #blog .blog-details {
+    width: 100%;
   }
 }
