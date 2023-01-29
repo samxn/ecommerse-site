@@ -633,6 +633,11 @@ footer .copyright a:hover {
   line-height: 25px;
   color: #595857;
 }
+/* Blog header */
+#page-header.blog-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/blog.jpeg");
+}
 /* Responsive */
 @media (max-width: 799px) {
   .section-p1 {
