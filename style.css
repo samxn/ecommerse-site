@@ -693,6 +693,41 @@ footer .copyright a:hover {
   color: rgb(194, 191, 191);
   z-index: -9; /* Puts text below image */
 }
+/* About us */
+#page-header.about-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("media/about.jpg");
+}
+#about-head {
+  display: flex;
+  align-items: center;
+}
+#about-head abbr {
+  color: #606063;
+}
+#about-head marquee {
+  color: #606063;
+}
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+#about-head div {
+  padding-left: 40px;
+}
+#about-app {
+  text-align: center;
+}
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+#about-app .video video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 /* Responsive */
 @media (max-width: 799px) {
   .section-p1 {
