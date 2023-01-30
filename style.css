@@ -919,6 +919,12 @@ footer .copyright a:hover {
   #newsletter .form {
     width: 70%;
   }
+  #form-details {
+    padding: 40px;
+  }
+  #form-details form {
+    width: 50%;
+  }
 }
 @media (max-width: 477px) {
   #header {
@@ -1010,5 +1016,26 @@ footer .copyright a:hover {
   }
   #about-app .video {
     width: 100%;
+  }
+  #contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #contact-details .map {
+    width: 100%;
+  }
+  #form-details {
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 30px 10px;
+    border: 1px solid #e1e1e1;
+  }
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
