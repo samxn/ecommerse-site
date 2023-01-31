@@ -882,6 +882,52 @@ footer .copyright a:hover {
   font-size: 13px;
   color: #606063;
 }
+#cart-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#coupon h3,
+#subtotal h3 {
+  padding-bottom: 15px;
+}
+#coupon input {
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #e1e1e1;
+}
+#coupon button,
+#subtotal button {
+  background-color: #dd5349;
+  color: white;
+  padding: 10px 20px;
+}
+#subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #e1e1e1;
+  padding: 30px;
+}
+#subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#subtotal table td {
+  width: 50%;
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  font-size: 13px;
+}
+.gray {
+  color: #595857;
+}
 /* Responsive */
 @media (max-width: 799px) {
   .section-p1 {
