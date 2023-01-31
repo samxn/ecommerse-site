@@ -27,9 +27,11 @@
           <li><a href="shop.html">Shop</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <a class="active" href="cart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
           </li>
           <a href="#" id="close"><i class="far fa-times"></i></a>
         </ul>
@@ -46,101 +48,51 @@
       <p>Send us a message, we'd love to hear from you!</p>
     </section>
 
-    <section id="contact-details" class="section-p1">
-      <div class="details">
-        <span>GET IN TOUCH</span>
-        <h2>Visit one of our locations or contact us online</h2>
-        <h3>Head Office</h3>
-        <div>
-          <li>
-            <i class="fal fa-map"></i>
-            <p>123 Street, New York, NY</p>
-          </li>
-          <li>
-            <i class="fal fa-envelope"></i>
-            <p>email@email.com</p>
-          </li>
-          <li>
-            <i class="fal fa-phone-alt"></i>
-            <p>+1 123 - 123 - 1234</p>
-          </li>
-          <li>
-            <i class="fal fa-clock"></i>
-            <p>Mon-Sun 9AM - 6PM</p>
-          </li>
-        </div>
-      </div>
-
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212270.88970025882!2d-84.5602166792904!3d33.76757379682634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C%20GA!5e0!3m2!1sen!2sus!4v1675119072181!5m2!1sen!2sus"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
-
-    <section id="form-details">
-      <form action="">
-        <span>LEAVE A MESSAGE</span>
-        <h2>We'd love to hear from you</h2>
-        <input type="text" placeholder="Your name" />
-        <input type="text" placeholder="Your E-mail" />
-        <input type="text" placeholder="Subject" />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea>
-        <button class="normal">Send</button>
-      </form>
-
-      <div class="people">
-        <div>
-          <img src="media/people.png" />
-          <p>
-            <span>John Doe</span> Senior Marketing Manager <br />
-            Phone: +1 123 123 1234<br />
-            Email: email@email.com
-          </p>
-        </div>
-        <div>
-          <img src="media/people.png" />
-          <p>
-            <span>Will Smith</span> Senior IT Manager <br />
-            Phone: +1 123 123 1234<br />
-            Email: email@email.com
-          </p>
-        </div>
-        <div>
-          <img src="media/people.png" />
-          <p>
-            <span>Sarah Stone</span> Senior Project Manager <br />
-            Phone: +1 123 123 1234<br />
-            Email: email@email.com
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="newsletter" class="section-p1 section-m1">
-      <div class="newstext">
-        <h4>Sign up for newsletter</h4>
-        <p>
-          Get e-mail updates about our latest shop and
-          <span>special offers.</span>
-        </p>
-      </div>
-      <div class="form">
-        <input type="text" placeholder="Your email address" />
-        <button class="normal">Sign up</button>
-      </div>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"> <i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="media/f12.jpeg" /></td>
+            <td>Blue Summer Dress</td>
+            <td>$78</td>
+            <td><input type="number" value="1" /></td>
+            <td>$78</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"> <i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="media/f13.jpeg" /></td>
+            <td>Pink Sleeveless Summer Dress</td>
+            <td>$78</td>
+            <td><input type="number" value="1" /></td>
+            <td>$78</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"> <i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="media/f11.jpeg" /></td>
+            <td>Black Summer Dress</td>
+            <td>$78</td>
+            <td><input type="number" value="1" /></td>
+            <td>$78</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <footer class="section-p1">
